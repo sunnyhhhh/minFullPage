@@ -57,4 +57,5 @@ pageEngine
         fontSize: "50px",
         color: "#000"
         }
-    });
+    })
+    .load();
