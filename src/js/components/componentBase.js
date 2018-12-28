@@ -8,7 +8,7 @@ var ComponentFactory = function(config){
     config.width && $Div.css('width', config.width);
     config.height && $Div.css('height', config.height);
     config.text && $Div.text(config.text);
-    config.center && $Div.css({position: 'absolute', left: '50%', marginLeft: -config.width / 2});
+    config.center && $Div.css({position: 'absolute', left: '50%', marginLeft: -config.width / 2, top:0});
     config.css && $Div.css(config.css);
 
     //如果在外部有定制事件

@@ -13,7 +13,16 @@ pageEngine
         textAlign: "center",
         verticalAlign: "middle",
         fontSize: "50px",
-        color: "#000"
+        color: "#000",
+        },
+        animateIn: {
+            top: 240,
+            opacity: 1
+        },
+        delay: 200,
+        animateOut: {
+            top: 0,
+            opacity: 0
         }
     })
   .addSection("twoSection")
@@ -25,6 +34,15 @@ pageEngine
             verticalAlign: "middle",
             fontSize: "50px",
             color: "#000"
+            },
+            animateIn: {
+                top: 240,
+                opacity: 1
+            },
+            delay: 200,
+            animateOut: {
+                top: 0,
+                opacity: 0
             }
         })
     .addSlide('twoSlide')
@@ -35,6 +53,15 @@ pageEngine
             verticalAlign: "middle",
             fontSize: "50px",
             color: "#000"
+            },
+            animateIn: {
+                top: 240,
+                opacity: 1
+            },
+            delay: 200,
+            animateOut: {
+                top: 0,
+                opacity: 0
             }
         })
     .addSlide('twoSlide')
@@ -45,6 +72,15 @@ pageEngine
             verticalAlign: "middle",
             fontSize: "50px",
             color: "#000"
+            },
+            animateIn: {
+                top: 240,
+                opacity: 1
+            },
+            delay: 200,
+            animateOut: {
+                top: 0,
+                opacity: 0
             }
         })
   .addSection('treeSection')
@@ -56,6 +92,15 @@ pageEngine
         verticalAlign: "middle",
         fontSize: "50px",
         color: "#000"
+        },
+        animateIn: {
+            top: 240,
+            opacity: 1
+        },
+        delay: 200,
+        animateOut: {
+            top: 0,
+            opacity: 0
         }
     })
     .load();

@@ -100,7 +100,7 @@
             }
 
             //如果是左右移动
-            if(e.keyCode == 37 || e.keyCode == 39){
+            if((e.keyCode == 37 || e.keyCode == 39) && $('.activeSection').find('.slideWrapper').length != 0){
                 if(self.lock){
                     self.lock = false;
                     var $SlideWrapper = $('.activeSection').find('.slideWrapper');
